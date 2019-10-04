@@ -5,7 +5,7 @@
 2.1）requests
 Test script -> function -> loop
 # But have BUG togo
-''' python
+``` python
 import requests
 def load_img(imgurl, file):
     '''Download a single image to the specified folder'''
@@ -17,6 +17,6 @@ def load_img(imgurl, file):
     print('{} is loaded'.format(name))
 
 load_img('http://10pm.com/files/lk9wdklq6dz.jpg','E:\\……')
-'''
+```
 2.2) you-get(we use)
 The win batch command replaces the loop.
